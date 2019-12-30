@@ -1,0 +1,101 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3c3939;
+    background-image: url("Image.jpg");
+    background-color: #f1f1f1;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin: 0;
+}
+
+.addOpacity {
+    background-color: rgba(240, 148, 11, 0.7);
+}
+
+.profile-card {
+    width: 400px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+    padding-bottom: 22px;
+    padding-top: 3px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.info {
+    color: #4b4fe2;
+    margin-right: 13px;
+}
+
+.main-container {
+    padding: 0 20px 0 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+audio {
+    align-content: center;
+    width: 100%;
+}
+
+.name {
+    padding-left: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    font-size: 18px;
+}
+  
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: R#010214;
+}
+
+.myDownload {
+    text-align: center;
+}
+
+.myDownload > a {
+    text-decoration: none;
+    background-color: #4b4fe2;
+    color: white;
+    padding: 10px 16px 10px 16px;
+}
+
+.myDownload > a:hover {
+    background-color: #000;
+}
+
+.footer {
+    text-align: center;
+    background-color: #000;
+    color:#fff;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 13px;
+}
+
+p > a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 360px) {
+    .profile-card {
+      width: 100%;
+    }
+
+    body {
+        margin: 4px;
+    }
+  }
